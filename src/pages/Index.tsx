@@ -1,16 +1,25 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+import CodeRain from "@/components/CodeRain";
+import FloatingShapes from "@/components/FloatingShapes";
+import Hero from "@/components/Hero";
+import Methodology from "@/components/Methodology";
+import TechStack from "@/components/TechStack";
+import Portfolio from "@/components/Portfolio";
+import VibeTerminal from "@/components/VibeTerminal";
+import Footer from "@/components/Footer";
 
-// IMPORTANT: Fully REPLACE this with your own code
-const PlaceholderIndex = () => {
-  // PLACEHOLDER: Replace this entire return statement with the user's app.
-  // The inline background color is intentionally not part of the design system.
+const Index = () => {
   return (
-    <div className="flex min-h-screen items-center justify-center" style={{ backgroundColor: '#fcfbf8' }}>
-      <img data-lovable-blank-page-placeholder="REMOVE_THIS" src="/placeholder.svg" alt="Your app will live here!" />
+    <div className="relative min-h-screen bg-background overflow-hidden">
+      <CodeRain />
+      <FloatingShapes />
+      <Hero />
+      <Methodology />
+      <TechStack />
+      <Portfolio />
+      <VibeTerminal />
+      <Footer />
     </div>
   );
 };
-
-const Index = PlaceholderIndex;
 
 export default Index;
