@@ -4,3 +4,4 @@ import "./index.css";
 
 //Треба додати щось корисне
 createRoot(document.getElementById("root")!).render(<App />);
+//Щось ще додамо
